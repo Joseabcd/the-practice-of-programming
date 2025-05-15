@@ -6,7 +6,7 @@ There are some experiments in the file section_3_4.c.
 
 ### Exercise 3-2.
 
-The code for this exercise is in the file section_3_4.c. The version with the 2nd hash table can be enabled by setting the value of  ```WORDS_STORED_ONCE``` to ```1``` inside the ``enum``` at the top of the file.
+The code for this exercise is in the file section_3_4.c. The version with the 2nd hash table can be enabled by setting the value of  ```WORDS_STORED_ONCE``` to ```1``` inside the ```enum``` at the top of the file.
 
 Running the program with the command /usr/bin/time -l ./a.out, taking as input the book "In Search of Lost Time", reports that the version with hash table of unique words has a lower peak memory consumption (41MB vs 62MB).
 
